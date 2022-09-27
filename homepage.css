@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid a{
+  grid-column: 1fr;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 3em;
+  padding-left: 1em;
+}
+
+.grid img {
+  max-width: 20em;
+  max-height:35em;
+}
