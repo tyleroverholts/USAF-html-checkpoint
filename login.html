@@ -4,6 +4,8 @@
         <title>
             GMDB Login
         </title>
+        <link rel="stylesheet" href="layout.css"/>
+        <link rel="stylesheet" href="header.css"/>
         <link rel="stylesheet" href="login.css"/>
     </head>
     <header>
@@ -19,12 +21,18 @@
     </header>
     <body>
       <form>
-        <h3>Login</h3>
-        <label for="email">Email:</label>
-          <input id="email" type="email" required>
-        <label for="password">Password:</label>
-          <input id="password" type="password">
-        <button type="submit" formaction="somewebpage">Login</button>
+        <h1>Login</h1>
+        <div class="email">
+          <label class="email" for="email">Email:</label>
+          <input class="email" id="email" type="email" required>
+        </div>
+        <div class="password">
+          <label class="password" for="password">Password:</label>
+          <input class="password" id="password" type="password">
+        </div>
+        <div class="login">
+          <button class="login" type="submit" formaction="somewebpage">Login</button>
+        </div>
       </form>
     </body>
 </html>
