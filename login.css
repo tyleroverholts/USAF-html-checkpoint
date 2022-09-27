@@ -9,10 +9,11 @@ form h1 {
   display:flex;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1.5em;
 }
 form .email {
   display: grid;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 1.75fr 2.25fr 1.75fr;
 
 }
 form .email label {
@@ -23,7 +24,7 @@ form .email input {
 }
 form .password {
   display: grid;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 1.75fr 2.25fr 1.75fr;
 }
 form .password label {
   grid-column: 2;
@@ -34,8 +35,9 @@ form .password input {
 }
 form .login {
   display: grid;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 1.75fr 2.25fr 1.75fr;
   margin-top:1em;
+  align-content: left;
 }
 form .login button {
   color: white;
