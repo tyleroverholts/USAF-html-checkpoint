@@ -1,0 +1,43 @@
+header {
+  display: grid;
+  grid-template-columns: 5% 10% 1fr;
+  height: 50px;
+  margin-top: -0.7em;
+  margin-bottom: 1em;
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+  padding-left: 0.7em;
+  padding-bottom: 0.5em;
+  padding-right: 0.7em;
+  background-color: rgb(58, 58, 58);
+}
+h4 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+.menu {
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  flex-direction: row;
+  font-size: small;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu .home {
+  padding-right: 1em;
+}
+
+header form {
+  grid-column: 6;
+  display: flex;
+  align-items: center;
+}
+.search-bar {
+  font-size: 15px;
+}
